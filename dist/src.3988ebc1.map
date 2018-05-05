@@ -1,0 +1,1 @@
+{"version":3,"sources":["src\\index.js"],"names":["$","alert"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAAA,EAAE,YAAW;AACXC,QAAM,GAAN;AACD,CAFD","file":"src.3988ebc1.map","sourceRoot":"..","sourcesContent":["$(function() {\n  alert(123)\n})"]}
