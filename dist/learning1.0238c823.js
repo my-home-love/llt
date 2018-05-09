@@ -98,9 +98,13 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({3:[function(require,module,exports) {
-
-},{}],7:[function(require,module,exports) {
+})({2:[function(require,module,exports) {
+$(function () {
+    $('#username').focus(function () {
+        $(this).after('设置后不可更改<br/>中英文均可,最长14个英文或7个汉字');
+    });
+});
+},{}],52:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -129,7 +133,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '1389' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '2728' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -270,4 +274,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[7,3], null)
+},{}]},{},[52,2], null)
+//# sourceMappingURL=/learning1.0238c823.map
